@@ -10,6 +10,11 @@ body{
     font-weight: 700; 
     line-height: 54px;
 }
+#heading-36-bold{
+    font-size: 36px; 
+    font-weight: 700; 
+    line-height: 54px;
+}
 #body-14-light{
     font-size: 14px; 
     font-weight: 300; 
@@ -98,4 +103,24 @@ li p{
    
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+#register-section{
+    background-color: #0D28A6;
+    border-radius: 13px;
+    height: 326px;
+    color: white;
+    text-align: center;
+    padding-top: 64px;
+}
+#register-section #body-14-light{
+    padding-top: 16px;
+    margin-bottom: 52px;
+}
+
+#faq-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#accordionFlushExample br{
+    line-height: 16px;
 }
