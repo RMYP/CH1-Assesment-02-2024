@@ -15,6 +15,16 @@ body{
     font-weight: 300; 
     line-height: 20px;
 }
+#body-14-regular{
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 20px;
+}
+#heading-24-bold{
+    font-size: 24px; 
+    font-weight: 700; 
+    line-height: 36px;
+}
 
 #row-section-ourservice img{
     margin: auto;
@@ -60,4 +70,32 @@ li p{
 
 #why-us #body-14-light{
     padding-bottom: 40px;
+}
+
+#carousel-section{
+    width: 832px;
+    height: 270px;
+    background-color: #F1F3FF;
+    border-radius: 8px;
+}
+#img-carousel{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left : 156px;
+}
+#testi-carousel{
+    margin-top: 69px;
+    margin-bottom: 69px;
+    padding-right: 150px;
+}
+#testimonial-section{
+    margin-top: 100px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
