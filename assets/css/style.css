@@ -1,0 +1,63 @@
+body{
+    font-family: Helvetica;
+}
+
+#heroes{
+    background-color: #F1F3FF;
+}
+#heroes h2{
+    font-size: 36px; 
+    font-weight: 700; 
+    line-height: 54px;
+}
+#body-14-light{
+    font-size: 14px; 
+    font-weight: 300; 
+    line-height: 20px;
+}
+
+#row-section-ourservice img{
+    margin: auto;
+    padding-inline: 5% 10%;
+}
+
+#row-section-ourservice{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#row-section-ourservice .col-5 h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+ul{
+    list-style-image: url("/assets/icon/checklist.svg");
+}
+li > *{
+    display: inline-block;
+    margin-inline-start: 5px;
+}
+li p{
+    vertical-align:super;
+}
+.colrow{
+    width: 268px;
+    height: 196px;
+    border-radius: 8px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.colrow img,h3{
+    padding-bottom: 16px;
+}
+#why-us h2{
+    padding-bottom: 16px;
+}
+
+#why-us #body-14-light{
+    padding-bottom: 40px;
+}
