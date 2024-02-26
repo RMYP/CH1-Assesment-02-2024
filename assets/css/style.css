@@ -30,6 +30,9 @@ body{
     font-weight: 700; 
     line-height: 36px;
 }
+.navbar-item{
+    margin: 106px;
+}
 
 #row-section-ourservice img{
     margin: auto;
@@ -111,6 +114,7 @@ li p{
     color: white;
     text-align: center;
     padding-top: 64px;
+    margin-top: 156px;
 }
 #register-section #body-14-light{
     padding-top: 16px;
@@ -119,8 +123,14 @@ li p{
 
 #faq-section{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 #accordionFlushExample br{
     line-height: 16px;
+}
+.text-center #heading-24-bold{
+    margin-bottom: 16px;
+}
+.text-center #body-14-light{
+    margin-bottom: 40px;
 }
