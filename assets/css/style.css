@@ -25,10 +25,26 @@ body{
     font-weight: 400; 
     line-height: 20px;
 }
+#body-14-bold{
+    font-size: 14px; 
+    font-weight: 700; 
+    line-height: 20px;
+    
+}
 #heading-24-bold{
     font-size: 24px; 
     font-weight: 700; 
     line-height: 36px;
+}
+#btn-success{
+    background-color: #5CB85F; 
+    border: none;
+    height: 36px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    color: white;
 }
 .navbar-item{
     margin: 106px;
@@ -133,4 +149,73 @@ li p{
 }
 .text-center #body-14-light{
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 425px) {
+    
+    #img_car{
+        width: 344px;
+        height: 199px;
+        display: block;
+        margin-top: 24px;
+    }
+    #img_icon_complete{
+        width:252px;
+        height: 228px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #div-img-icon-complete{
+        width: 100%;
+    }
+    #carousel-section{
+        width: 328px;
+        height: 392px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #testi-carousel{
+        margin-top: 34px;
+        padding-right: 32px;
+        padding-left: 32px;
+        padding-bottom: 40px;
+    }
+    
+    #star-testimoni-carousel{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: none;
+        display: block;
+        padding-top: 0;
+    }
+    #img-photo-user-testimoni{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #img-carousel{
+        width: 328px;
+        padding-left: 0;
+        
+    }
+    #img-carousel img{
+        padding-left : 39px;
+        padding-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        position: absolute;
+        top: 75px;
+    }
+    .carousel-control-prev-icon{
+        left: 21px;
+    }
+    .carousel-control-next-icon{
+        right: 21px;
+    }
+
 }
