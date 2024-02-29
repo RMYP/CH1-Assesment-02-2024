@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, minimum-scale=1">
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -13,9 +13,39 @@
   <nav class="navbar navbar-expand-lg navbar-light pt-3">
     <div class="container">
       <img src="assets/icon/Rectangle 74.svg" alt="">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Btn hamburger  navbar -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <!-- canvas -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <p id="body-24-bold" class="fw-bold">BCR</p>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+            <ul>
+              <li>
+                <a href="#our-service" id="body-14-regular">Our Services</a>
+              </li>
+              <li>
+                <a href="#" id="body-14-regular">Why Us</a>
+              </li>
+              <li>
+                <a href="#" id="body-14-regular">Testimonial</a>
+              </li>
+              <li>
+                <a href="#" id="body-14-regular">FAQ</a>
+              </li>
+              <li>
+                <a class="btn btn-success" id="body-14-bold" style="border-radius: 2px;" href="">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Offcanvas -->
+
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">

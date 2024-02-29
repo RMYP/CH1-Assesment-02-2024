@@ -151,20 +151,38 @@ li p{
     margin-bottom: 40px;
 }
 
-@media screen and (max-width: 425px) {
-    
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+@media screen and (max-width: 360px) {
+    body{
+        overflow-x: hidden;
+    }
+    #heroes{
+        width: 100%;
+    }
+
+    .colrow{
+        margin-bottom: 16px;
+    }
+    .colrow:last-child{
+        margin-bottom: 0px;
+    }
     #img_car{
         width: 344px;
         height: 199px;
         display: block;
         margin-top: 24px;
     }
-    #img_icon_complete{
+    #row-section-ourservice img{
         width:252px;
         height: 228px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 24px;
     }
     #div-img-icon-complete{
         width: 100%;
@@ -216,6 +234,50 @@ li p{
     }
     .carousel-control-next-icon{
         right: 21px;
+    }
+    #register-section{
+        width: 328px;
+        height: 400px;
+    }
+    #register-section #heading-36-bold{
+        font-size: 24px; 
+        font-weight: 700; 
+        line-height: 36px;
+    }
+
+    /* humburger toggle */
+    .navbar-toggler{
+        width: 24px;
+        height: 24px;
+        padding-right: 30px;
+        border: none;
+    }
+  
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+    /* collapse navbar */
+    #offcanvasRight{
+        background-color: #FFFFFF;
+        width: 180px;
+        height: 100%;
+    }
+    .offcanvas ul{
+        list-style: none;
+        align-items: start;
+        padding-left: 16px;
+    }
+    
+    #offcanvasRight ul li a {
+        text-decoration: none;
+        margin-bottom: 16px;
+        color: #000000;
+    }
+    #offcanvasRight ul li .btn-success {
+        color: #FFFFFF;
+    }
+    .offcanvas-header #body-24-bold{
+        padding-top: 20px;
     }
 
 }
