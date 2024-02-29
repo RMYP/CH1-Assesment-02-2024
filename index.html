@@ -1,3 +1,7 @@
+
+<!-- Note -->
+<!-- Responsive di layar lebar 360px -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +12,6 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <section id="heroes">
     <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light pt-3">
     <div class="container">
@@ -17,8 +20,8 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- canvas -->
+    <!-- end btn hamburger -->
+      <!-- Offcanvas -->
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header">
           <p id="body-24-bold" class="fw-bold">BCR</p>
@@ -29,36 +32,33 @@
                 <a href="#our-service" id="body-14-regular">Our Services</a>
               </li>
               <li>
-                <a href="#" id="body-14-regular">Why Us</a>
+                <a href="#why-us" id="body-14-regular">Why Us</a>
               </li>
               <li>
-                <a href="#" id="body-14-regular">Testimonial</a>
+                <a href="#testimonial-section" id="body-14-regular">Testimonial</a>
               </li>
               <li>
-                <a href="#" id="body-14-regular">FAQ</a>
+                <a href="#FAQ" id="body-14-regular">FAQ</a>
               </li>
               <li>
                 <a class="btn btn-success" id="body-14-bold" style="border-radius: 2px;" href="">Register</a>
               </li>
             </ul>
           </div>
-        </div>
-      </div>
       <!-- Offcanvas -->
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#" id="body-14-regular">Our Services</a>
+            <a class="nav-link" href="#our-service" id="body-14-regular">Our Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="body-14-regular">Why Us</a>
+            <a class="nav-link" href="#why-us" id="body-14-regular">Why Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="body-14-regular">Testimonial</a>
+            <a class="nav-link" href="#testimonial-section" id="body-14-regular">Testimonial</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="body-14-regular">FAQ</a>
+            <a class="nav-link" href="#FAQ" id="body-14-regular">FAQ</a>
           </li>
           <li>
             <a class="btn btn-success" id="body-14-bold" style="border-radius: 2px;" href="">Register</a>
@@ -68,7 +68,8 @@
     </div>
   </nav>
   <!-- end Navbar -->
-  <!-- Section Heroes -->
+<section id="heroes">
+  <!-- Section main -->
     <div class="container">
       <div class="row flex-lg-row align-items-center g-5 pb-1 pt-4">
         <div class="col-lg-6 ">
@@ -85,9 +86,9 @@
       </div>
     </div>
   </section>
-  <!-- end Section Heroes -->
+  <!-- end main section -->
   <!-- Our service section -->
-  <section>
+  <section id="our-service">
     <div class="container">
       <div class="row" id="row-section-ourservice">
         <div class="col-10 col-sm-8 col-lg-6" id="div-img-icon-complete"><img id="img_icon_complete" src="assets/img/img_service.svg" alt=""></div>
@@ -201,7 +202,7 @@
     </section>
   <!-- end section testimonial -->
   <!-- register section -->
-  <section>
+  <section id="getting-started">
     <div class="container" id="register-section">
       <h2 id="heading-36-bold">Sewa Mobil di (Lokasimu) Sekarang</h2>
       <p id="body-14-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -210,7 +211,7 @@
   </section>
   <!-- end register section -->
   <!-- FAQ section -->
-  <section>
+  <section id="FAQ">
     <div class="container" id="faq-section">
       <div class="row">
         <div class="col-md-5">
