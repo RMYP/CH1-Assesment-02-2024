@@ -164,7 +164,7 @@ li p{
     outline: 0;
     box-shadow: 0 0 0 0;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     body{
         overflow-x: hidden;
     }
@@ -267,7 +267,136 @@ li p{
     /* collapse navbar */
     #offcanvasRight{
         background-color: #FFFFFF;
-        width: 180px;
+        width: 190px;
+        height: 100%;
+    }
+    .offcanvas ul{
+        list-style: none;
+        align-items: start;
+        padding-left: 16px;
+    }
+    
+    #offcanvasRight ul li a {
+        text-decoration: none;
+        margin-bottom: 16px;
+        color: #000000;
+    }
+    #offcanvasRight ul li .btn-success {
+        color: #FFFFFF;
+    }
+    .offcanvas-header #body-24-bold{
+        padding-top: 20px;
+    }
+
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    body{
+        overflow-x: hidden;
+    }
+    #heroes{
+        width: 100%;
+    }
+
+    .colrow{
+        margin-bottom: 16px;
+    }
+    .colrow:last-child{
+        margin-bottom: 0px;
+    }
+    #car-img-wrapper{
+        margin-top: 24px;
+    }
+    #img_car{
+        width: 404px;
+        height: 269px;
+        display: flex;
+        margin-top: 24px;
+        right: 0;
+    }
+    #row-section-ourservice img{
+        width:292px;
+        height: 268px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+    #div-img-icon-complete{
+        width: 100%;
+    }
+    #carousel-section{
+        width: 328px;
+        height: 392px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #testi-carousel{
+        margin-top: 34px;
+        padding-right: 32px;
+        padding-left: 32px;
+        padding-bottom: 40px;
+    }
+    
+    #star-testimoni-carousel{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: none;
+        display: block;
+        padding-top: 0;
+    }
+    #img-photo-user-testimoni{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #img-carousel{
+        width: 328px;
+        padding-left: 0;
+        
+    }
+    #img-carousel img{
+        padding-left : 39px;
+        padding-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        position: absolute;
+        top: 75px;
+    }
+    .carousel-control-prev-icon{
+        left: 21px;
+    }
+    .carousel-control-next-icon{
+        right: 21px;
+    }
+    #register-section{
+        width: 328px;
+        height: 400px;
+    }
+    #register-section #heading-36-bold{
+        font-size: 24px; 
+        font-weight: 700; 
+        line-height: 36px;
+    }
+
+    /* humburger toggle */
+    .navbar-toggler{
+        width: 24px;
+        height: 24px;
+        padding-right: 30px;
+        border: none;
+    }
+  
+    button:focus:not(:focus-visible) {
+        outline: none;
+    }
+    /* collapse navbar */
+    #offcanvasRight{
+        background-color: #FFFFFF;
+        width: 200px;
         height: 100%;
     }
     .offcanvas ul{
